@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Agenda</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body onload="showList()">
+    <div class="container" id="headboard">
+        <h1>Contact Agenda</h1>
+    </div>
+    <div class="container">
+        <div class="element">
+            <ul id="persons">
+                <!--<li>Daniel Romero  7392732</li>-->
+            </ul>
+        </div>
+    </div>
+    <div class="container message-container">
+        <div class="buttons-container">
+            <button onclick="addContact() ">+</button>
+        </div>
+        <form id="forma">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="number" name="phoneNumber" id="phoneNumber" placeholder="PhoneNumber">
+        </form>
+        <div class="message" id="message"></div>
+    </div>
+    
+
+    <script src="./js/persona.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
